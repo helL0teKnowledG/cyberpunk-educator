@@ -1,15 +1,18 @@
 {
-  "name": "hacker",
+  "name": "cyberpunk-educator",
   "version": "1.4.0",
   "private": true,
   "description": "gatsby-starter-chronoblog-hacker",
   "keywords": [],
   "license": "MIT",
-  "author": "Ivan Ganev <ganevio92@gmail.com>",
+  "author": "hell0teknowledG<hell0teknowledG@gmail.com>",
+  "homepage": "http://cyberpunk-educator.github.io/hell0teknowledG",
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "gatsby develop"
+    "start": "gatsby develop",
+    "predeploy": "npm run build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.18.7",
@@ -24,6 +27,7 @@
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.18.2"
   },
   "engines": {

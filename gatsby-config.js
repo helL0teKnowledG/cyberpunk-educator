@@ -76,5 +76,6 @@ module.exports = {
         trackingId: 'UA-XXXXXXXXX-X'
       }
     }
-  ]
+  ],
+  pathPrefix: '/cyberpunk-educator'
 };
